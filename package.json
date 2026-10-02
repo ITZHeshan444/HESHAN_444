@@ -7,8 +7,7 @@
     "start": "pm2 start index.js --deep-monitoring --attach --name Heshan_444",
     "stop": "pm2 stop Heshan_444",
     "restart": "pm2 restart Heshan_444",
-    "test": "echo \"No tests configured\" && exit 0"
-  },
+  }
   "dependencies": {
     "@whiskeysockets/baileys": "^7.0.0-rc14",
     "api-dylux": "^1.8.5",
